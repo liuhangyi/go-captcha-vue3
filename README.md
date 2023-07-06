@@ -9,7 +9,8 @@
 3. 响应式布局支持
 4. 反馈消息
 
-![img_2.png](img_2.png)![img.png](img.png)![img_1.png](img_1.png)
+![img.png](img.png)![img_1.png](img_1.png)![img_2.png](img_2.png)
+![img_3.png](img_3.png)
 
 项目优化掉了width和height属性，前端根据服务器传回的图片进行自适应，并保存长宽，最后进行等比例计算，返回正确的，相对原图的点坐标结果
 
