@@ -203,7 +203,7 @@ function handleClickPos(ev) {
     e.preventDefault()
     const dom = e.currentTarget
 
-    const {domX, domY, imgWidth, imgHeight} = getDomXY(dom)
+    const {domX, domY} = getDomXY(dom)
     // ===============================================
     // @notice 如 getDomXY 不准确可尝试使用 calcLocationLeft 或 calcLocationTop
     // const domX = this.calcLocationLeft(dom)
